@@ -9,6 +9,11 @@ def div(num1, num2):
         return num1 / num2
 
 
+def mul(num1, num2):
+    return num1 * num2
+
+
 if __name__ == '__main__':
     print(summ(17, 18))
     print(div(5, 6))
+    print(mul(5, 8))
